@@ -1,0 +1,31 @@
+{
+  "name": "roll-of-recipes",
+  "version": "1.0.0",
+  "description": "A virtual \"rollodex\" of recipes I have tried or intend to try",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "mysql2": "^3.9.7",
+    "sequelize": "^6.37.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asalmeron3/roll-of-recipes.git"
+  },
+  "keywords": [
+    "recipes",
+    "roll"
+  ],
+  "author": "Arturo Salmeron",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/asalmeron3/roll-of-recipes/issues"
+  },
+  "homepage": "https://github.com/asalmeron3/roll-of-recipes#readme"
+}
